@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 1%;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+@media all and (max-width: 768px) {
+  body{
+    padding: 5%;
+  }
+}
